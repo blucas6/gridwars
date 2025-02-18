@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <title>GridWar</title>
+</head>
+<body>
+
+    <div></div>
+
+    <div id="player1">
+        <div id="title">
+            <h1>Player 1</h1>
+        </div>
+        <div id="player1info">
+            <p id="money1">Money: $10</p>
+            <p id="territories1">Territories: 1</p>
+            <p id="people1">People: 2</p>
+            <button id="buyPeople1">Buy People ($2)</button>
+            <button id="buyArmy1">Buy Army ($10)</button>
+            <div id="peopleBox1"></div>
+            <p id= "ind1">Industries: 0</p>
+            <button id="buyInd1">Buy ($12)</button>
+            <div id="getBox1"></div>
+        </div>
+    </div>
+
+    <div id="middle_col">
+        <table id="grid"></table>
+        <div id="footer">
+            <h3 id="turn">Turn: </h3>
+            <button id="pass">Pass Turn</button>
+            <div id="rules">
+                <h4>Ruleset: </h5>
+                <p>Money - Gain interest $1 per $10 per turn</p>
+                <p id="rules_terr">Territories - Conquering gains $</p>
+                <p>People - Need at least 1 person per Industry, rest go to Army</p>
+                <p id="rules_ind">Industries - produce $ per turn</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="player2">
+        <div id="title">
+            <h1>Player 2</h1>
+        </div>
+        <div id="player2info">
+            <p id="money2">Money: $10</p>
+            <p id="territories2">Territories: 1</p>
+            <p id="people2">People: 2</p>
+            <button id="buyPeople2">Buy People ($2)</button>
+            <button id="buyArmy2">Buy Army ($10)</button>
+            <div id="peopleBox2"></div>
+            <p id="ind2">Industries: 0</p>
+            <button id="buyInd2">Buy ($12)</button>
+            <div id="getBox2"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

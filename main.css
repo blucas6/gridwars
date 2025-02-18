@@ -1,0 +1,96 @@
+body {
+    display: grid;
+    grid-template-columns: 10px 350px 550px 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#middle_col {
+    margin: auto;
+}
+
+table {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 20px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#player1 {
+    padding: 15px;
+    background-color: #ff000073;
+    border-radius: 10px;
+    border: 5px solid #ff000080;
+}
+
+#player2 {
+    padding: 15px;
+    background-color: #0000ff73;
+    border-radius: 10px;
+    border: 5px solid #0000ff80;
+}
+
+.Ibox {
+    background-color: #b4b4b4;
+    border: 2px solid #808080;
+    padding: 10px;
+    width: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+    border-radius: 4px;
+}
+
+.Ibox.clicked {
+    background-color: #76787a;
+    border: 2px solid #808080;
+    padding: 10px;
+    width: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+    border-radius: 4px;
+}
+
+#footer p {
+    font-size: 15px;
+    margin: 3px;
+}
+
+#footer h4 {
+    margin: 3px;
+}
+
+#pass {
+    display: inline-block;
+    margin-left: 150px; 
+    padding: 10px; 
+    font-size: large;
+}
+
+#turn {
+    display: inline-block;
+}
+
+#rules {
+    background-color: #00ff002a;
+    border-radius: 10px;
+    border: 5px solid #00ff006e;
+}
